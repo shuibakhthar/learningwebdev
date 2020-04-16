@@ -1,0 +1,41 @@
+body{
+	margin: 2%;
+	background: #b23ed8;
+}
+
+#img1{
+	transition: width 2s;
+	border-radius: 5%;
+	width: 2%;
+	height:30%;
+}
+
+.p1{	
+	color: white;
+}
+
+#img1:hover{
+	width: 20%;
+}
+
+#drop{
+	transition-property: font-size;
+	transition-delay: .1s;
+	transition-duration: .2s;
+}
+
+#drop:hover{
+	font-size:100px;
+}
+
+#img2{
+	visibility: hidden;
+	transition: width 2s;
+	width:50%;
+	height:100%;
+
+}
+
+#img2:hover{
+	width:100%;
+}
